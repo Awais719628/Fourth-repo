@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.logo img{
+    height: 48px;
+    border-radius: 30px;
+    padding-left: 35px;
+    margin-top: 10px;
+}
+.icon{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    padding: 18px;
+    padding-left: 380px;
+}
+.icon li{
+    margin-top: 6px;
+    font-size: 18px;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+
+}
+.icon a:hover{
+    color: red;
+}
+
+.search-box{
+    display: flex;
+     padding: 1px 70px;
+}
+.search-box button{
+    height: 30px;
+    width: 58px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-left: 4px;
+}
+.search-box input{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    padding:5px 14px;
+}
+
+
+                                              
+
+.contaner{
+    display: flex;
+    padding: 80px 3px 5px 9px;
+    height: 1000px;
+   
+}
+.box-left{
+    width: 50%;
+    padding: 3px 50px 0px 49px;
+}
+.box-right{
+    padding: 45px 0px 0px 250px;
+    width: 50%;
+   
+}
+.box-right img{
+    border-radius: 120px;
+}
+
+
+                                              /* footer */
+
+.footer{
+    padding-top: 40px;
+    display: flex;
+   height: 300px;
+    gap: 117px;
+    background-color: black;
+    color: white;
+}
+.logo-footer{
+    width: 250px;
+}
+.contact{
+width: 395px;
+}
+.about{
+width: 400px;
+}
+.footer img{
+    border-radius: 80px;
+    height: 120px;
+    /* margin-top: 50px; */
+    margin-left: 90px;
+}
